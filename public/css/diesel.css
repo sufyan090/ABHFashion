@@ -1,0 +1,166 @@
+/*BRANDS PAGE SECTION PAGE SUGGEST CSS START */
+
+#page-suggest{
+    margin-top: 20px;
+    background-color: orange;
+}
+.suggest{
+    text-align: center;
+    margin: 40px 0;
+}
+.suggest a,span{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.suggest a:hover{
+    color: darkgray;
+    transition: 0.5s;
+}
+.suggest span{
+    padding-left: 5px;
+}
+
+/*BRANDS PAGE SECTION PAGE SUGGEST CSS END */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+ /* LEVIS IMAGE SECTION CSS START */
+
+.logo{
+    cursor: pointer;
+    /* background: linear-gradient(to right , red , white); */
+    background-color: black;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    border: 1px solid black;
+}
+.diesel1 ,.diesel2 ,.diesel3 ,.diesel4{
+    margin: 50px 0;
+}
+.diesel5 ,.diesel6 ,.diesel7 ,.diesel8{
+    margin: 20px 0;
+}
+.diesel9 ,.diesel10{
+    margin: 20px 0;
+}
+.diesel1,.diesel2,.diesel3,.diesel4,.diesel5,.diesel6,.diesel7,.diesel8,.diesel9,.diesel10{
+    background-color: white;
+    box-shadow: 0 0 20px grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.diesel-icon{
+    position: absolute;
+    left: 30%;
+    bottom: 80%;
+    transition: 0.5s;
+    text-align: center;
+    opacity: 0;
+}
+.diesel-icon i{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.diesel-icon i:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.diesel1:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel2:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel3:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel4:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel5:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel6:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel7:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel8:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel9:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel10:hover .diesel-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.diesel1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel4:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel5:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel6:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel7:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel8:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel9:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel10:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.diesel-description{
+    background-color: orange;
+    font-weight: bolder;
+}
+.diesel-description p{
+    font-family: cursive;
+}
+.diesel-description a,i{
+    color: black;
+}
+  /* LEVIS IMAGE SECTION CSS END */

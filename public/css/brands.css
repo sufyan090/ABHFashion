@@ -1,0 +1,43 @@
+/*BRANDS PAGE SECTION PAGE SUGGEST CSS START */
+#page-suggest{
+    margin-top: 20px;
+    background-color: orange;
+}
+.suggest{
+    text-align: center;
+    margin: 40px 0;
+}
+.suggest a,span{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.suggest a:hover{
+    color: darkgray;
+    transition: 0.5s;
+}
+.suggest span{
+    padding-left: 5px;
+}
+
+/*BRANDS PAGE SECTION PAGE SUGGEST CSS END */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* BRANDS IMAGE SECTION CSS START */
+
+.levis ,.diesel ,.denim{
+    cursor: pointer;
+    margin: 50px 0px 0px 0px;
+    background-color: #101010;
+    box-shadow: 0 0 15px black;
+    transition: 0.5s;
+}
+.levis:hover ,.diesel:hover ,.denim:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+/* BRANDS IMAGE SECTION CSS END */

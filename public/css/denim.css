@@ -1,0 +1,170 @@
+/*BRANDS PAGE SECTION PAGE SUGGEST CSS START */
+
+#page-suggest{
+    margin-top: 20px;
+    background-color: orange;
+}
+.suggest{
+    text-align: center;
+    margin: 40px 0;
+}
+.suggest a,span{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.suggest a:hover{
+    color: darkgray;
+    transition: 0.5s;
+}
+.suggest span{
+    padding-left: 5px;
+}
+
+/*BRANDS PAGE SECTION PAGE SUGGEST CSS END */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+ /* LEVIS IMAGE SECTION CSS START */
+
+.logo{
+    cursor: pointer;
+    /* background: linear-gradient(to right , red , white); */
+    background-color: black;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    border: 1px solid black;
+}
+.denim1 ,.denim2 ,.denim3 ,.denim4{
+    margin: 50px 0;
+}
+.denim5 ,.denim6 ,.denim7 ,.denim8{
+    margin: 20px 0;
+}
+.denim9 ,.denim10{
+    margin: 20px 0;
+}
+.denim1,.denim2,.denim3,.denim4,.denim5,.denim6,.denim7,.denim8,.denim9,.denim10{
+    background-color: white;
+    box-shadow: 0 0 20px grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.denim-icon{
+    position: absolute;
+    left: 30%;
+    bottom: 80%;
+    transition: 0.5s;
+    text-align: center;
+    opacity: 0;
+}
+.denim-icon i{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.denim-icon i:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.denim1:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim2:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim3:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim4:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim5:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim6:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim7:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim8:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim9:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim10:hover .denim-icon{
+    opacity: 1;
+    transform: translateY(100px);
+}
+.denim1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim4:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim5:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim6:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim7:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim8:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim9:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim10:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.denim-description{
+    background-color: orange;
+    font-weight: bolder;
+}
+.denim-description p{
+    font-family: cursive;
+}
+.denim-description a,i{
+    color: black;
+}
+  /* LEVIS IMAGE SECTION CSS END */

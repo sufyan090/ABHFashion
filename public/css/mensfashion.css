@@ -1,0 +1,163 @@
+/*MENS FASHION PAGE SUGGEST SECTION CSS START */
+#page-suggest{
+    margin-top: 20px;
+    background-color: orange;
+}
+.suggest{
+    text-align: center;
+    margin: 40px 0;
+}
+.suggest a,span{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.suggest a:hover{
+    color: darkgray;
+    transition: 0.5s;
+}
+.suggest span{
+    padding-left: 5px;
+}
+
+/*MENS FASHION PAGE SUGGEST SECTION CSS END */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* MENS FASION SEARCH SECTION START */
+
+#search{
+    /* background-color: red; */
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.mensfashion-search input{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+.mensfashion-search i{
+    padding-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.mensfashion-search i:hover{
+    color: darkgrey;
+}
+
+/* MENS FASION SEARCH SECTION END */
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* MENS FASHION IMAGE SECTION CSS START */
+
+.mensfashion-rate{
+    background-color: orange;
+    text-align: center;
+}
+.mensfashion-rate span{
+    font-family: cursive;
+}
+.mensfashion-rate a,i{
+    color: black;
+    font-weight: bolder;
+}
+.mensfashion-icon{
+    position: absolute;
+    left: 30%;
+    bottom: 80%;
+    transition: 0.5s;
+    text-align: center;
+    opacity: 0;
+}
+.mensfashion-icon i{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.mensfashion-icon i:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.mensfashion-image1 ,.mensfashion-image2 ,.mensfashion-image3 ,.mensfashion-image4{
+    margin: 50px 0;
+    /* background-color: orange; */
+    background-color: white;
+    box-shadow: 0px 0px 15px #101010;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.mensfashion-image5 ,.mensfashion-image6 ,.mensfashion-image7 ,.mensfashion-image8{
+    margin: 50px 0;
+    background-color: white;
+    box-shadow: 0px 0px 15px #101010;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.mensfashion-image1:hover .mensfashion-icon{
+    opacity: 1;
+    transform: translateY(130px);
+}
+.mensfashion-image2:hover .mensfashion-icon{
+    opacity: 1;
+    transform: translateY(130px);
+}
+.mensfashion-image3:hover .mensfashion-icon{
+    opacity: 1;
+    transform: translateY(130px);
+}
+.mensfashion-image4:hover .mensfashion-icon{
+    opacity: 1;
+    transform: translateY(130px);
+}
+.mensfashion-image5:hover .mensfashion-icon{
+    opacity: 1;
+    transform: translateY(130px);
+}
+.mensfashion-image6:hover .mensfashion-icon{
+    opacity: 1;
+    transform: translateY(130px);
+}
+.mensfashion-image7:hover .mensfashion-icon{
+    opacity: 1;
+    transform: translateY(130px);
+}
+.mensfashion-image8:hover .mensfashion-icon{
+    opacity: 1;
+    transform: translateY(130px);
+}
+.mensfashion-image1:hover{
+    transform: scale(1.1);
+}
+.mensfashion-image2:hover{
+    transform: scale(1.1);
+}
+.mensfashion-image3:hover{
+    transform: scale(1.1);
+}
+.mensfashion-image4:hover{
+    transform: scale(1.1);
+}
+.mensfashion-image5:hover{
+    transform: scale(1.1);
+}
+.mensfashion-image6:hover{
+    transform: scale(1.1);
+}
+.mensfashion-image7:hover{
+    transform: scale(1.1);
+}
+.mensfashion-image8:hover{
+    transform: scale(1.1);
+}
+
+/* MENS FASHION IMAGE SECTION CSS END */

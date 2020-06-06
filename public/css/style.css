@@ -1,0 +1,437 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: purple;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* TOP HEADER SECTION CSS START */
+
+#top-head{
+    width: 100%;
+    height: 100%;
+}
+.language{
+    margin: 10px auto;
+}
+.call{
+    margin: 13px auto;
+    text-align: center;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.social{
+    margin: 13px auto;
+    cursor: pointer;
+}
+.account{
+    border-left: 1px solid black;
+    text-align: center;
+    border-right: 1px solid black;
+    margin: 13px auto;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.social i{
+    padding: 0px 7px 0px 7px;
+}
+.social .fa-facebook:hover{
+    color: blue;
+}
+.social .fa-twitter:hover{
+    color: skyblue;
+}
+.social .fa-instagram:hover{
+    color: brown;
+}
+.social .fa-pinterest:hover{
+    color: brown;
+}
+
+
+/* TOP HEADER SECTION CSS END */
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* NAVBAR SECTION CSS START */
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.navbar .navbar-nav .active{
+    font-weight: bolder;
+}
+.navbar .navbar-nav .nav-item{
+    padding: 0px 5px 0px 5px;
+    color: black;
+}
+.navbar .navbar-nav .nav-item:hover{
+    color: black;
+}
+.navbar .navbar-nav .nav-link{
+    border-bottom: 1px solid black;
+    color: darkgrey;
+}
+.nav-icons i{
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+.nav-icons i:hover{
+    color: darkgrey;
+}
+.navbar .navbar-nav .dropdown-menu{
+    display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    background-color: orange;
+    transition: 0.2s ease-in-out;
+    width: 250px;
+    transform: translateX(-100px);
+    animation: anime 0.2s ease-in-out normal both;
+}
+@keyframes anime{
+    0%{
+        transform: translateX(-100px);
+        transform-origin: center;
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.dropdown-menu .dropdown-item{
+    padding: 12px 40px 12px 20px;
+    font-size: 15px;
+    transition: 0.2s ease-in-out;
+}
+.dropdown-menu .dropdown-item:hover{
+    padding-left: 30px;
+    transition: 0.2s ease-in-out;   
+}
+.dropdown-menu .dropdown-item i{
+    display: none;
+}
+.dropdown-menu .dropdown-item:hover i{
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+}
+/* NAVBAR SECTION CSS END */
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* CAROUSEL SECTION CSS START */
+
+.carousel-inner .carousel-item .carousel-caption{
+    width: 500px;
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+.carousel-inner .carousel-item .first-border{
+    background-color: black;
+    height: 3px;
+    width: 100px;
+    float: left;
+    position: relative;
+    top: 35px;
+    left: 30px;
+}
+.carousel-inner .carousel-item .last-border{
+    background-color: black;
+    height: 3px;
+    width: 100px;
+    float: right;
+    position: relative;
+    top: 35px;
+    right: 30px;
+}
+.carousel-caption > h3,h1,p{
+    color: black;
+}
+.carousel-caption p{
+    font-weight: bolder;
+}
+.carousel-caption h1{
+    font-size: 60px;
+}
+.carousel-caption > h3,h1,p{
+    margin: 20px;
+}
+.carousel-caption button{
+    background: transparent;
+    border: none;
+    border: 1px solid black;
+    height: 50px;
+    width: 170px;
+    margin: 10px 0px 10px 0px;
+    font-weight: bolder;
+    transition: 0.3s ease-in-out;
+}
+.carousel-caption button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/* CAROUSEL SECTION CSS END */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* CONVENIENCE SECTION CSS START */
+
+#convenience{
+    margin: 50px auto;
+    width: 100%;
+    height: 100%;   
+    text-align: center;
+}
+.shipping ,.support ,.money{
+    height: 200px;
+    padding-top: 40px;
+    transition: 0.2s ease-in-out;
+}
+.shipping h6 ,.support h6 ,.money h6{
+    margin: 10px;
+    font-weight: bolder;
+}
+.shipping img:hover ,.support img:hover ,.money img:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+/* CONVENIENCE SECTION CSS END */
+
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* NEW ARRIVALS SECTION CSS START */
+
+#arrivals{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    border-bottom: 1px solid black;
+}
+.card1 ,.card2 ,.card3 ,.card4{
+    padding-top: 25px;  
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.card5 ,.card6 ,.card7 ,.card8{
+    padding-top: 25px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.card9 ,.card10{
+    padding-top: 25px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.card-icons{
+    position: relative;
+    z-index: 3;
+    transform: translateY(-300px);
+    text-align: center;
+    transition: 0.5s all;
+    opacity: 0;
+}
+.card1:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card2:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card3:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card4:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card5:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card6:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card7:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card8:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card9:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card10:hover .card-icons{
+    opacity: 1;
+    transform: translateY(-170px);
+}
+.card-icons i{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.card-icons i:hover{
+    background-color: white;
+}
+.card1>span ,.card2>span ,.card3>span ,.card4>span ,.card5>span ,.card6>span ,.card7>span ,.card8>span ,.card9>span ,.card10>span{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    color: palevioletred;
+}
+.card1 img ,.card2 img ,.card3 img ,.card4 img ,.card5 img ,.card6 img ,.card7 img ,.card8 img,.card9 img ,.card10 img{
+    box-shadow: -5px 5px 15px grey;
+    transition: 0.2s ease-in-out;
+}
+.card1 img:hover ,.card2 img:hover ,.card3 img:hover ,.card4 img:hover ,.card5 img:hover ,.card6 img:hover ,.card7 img:hover ,.card8 img:hover ,.card9 img:hover ,.card10 img:hover{
+    transform: scale(1.1);
+}
+
+/* NEW ARRIVALS SECTION CSS END */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/* FOOTER SECTION CSS START */
+
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    margin: 50px 0px 0px 0px;
+}
+.footer-heading{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-heading h1{
+    font-weight: bolder;
+}
+.footer-heading p{
+    margin: 0px 0px 0px 20px;
+}
+#footer li{
+    list-style-type: none;
+    padding-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+#footer li a{
+    color: black;
+}
+#footer li:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.footer-about ,.footer-helplink ,.footer-follow ,.footer-subscribe{
+    margin: 50px 0px 10px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+#footer h6{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer-subscribe input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin-top: 5px;
+}
+.footer-subscribe input:focus{
+    border: 2px solid black;
+}
+.footer-subscribe button{
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    border: 2px solid black;
+    height: 40px;
+    width: 120px;
+    font-weight: bolder;
+    transition: 0.2s ease-in-out;
+    outline: none;
+}
+.footer-subscribe button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+/* FOOTER SECTION CSS END */
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+/* ARROW SECTION CSS START */
+
+.gototop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+}
+.gototop i:hover{
+    color: black;
+}
+
+/* ARROW SECTION CSS END */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* MEDIA QUERY SECTION START */
+
+@media(max-width:640px){
+    .social{
+        text-align: center;
+    }
+}   
+@media(max-width:768px){
+    .social{
+        text-align: center;
+    }
+}    
